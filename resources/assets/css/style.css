@@ -1,0 +1,138 @@
+/* Log in form start */
+
+.form-login{
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+
+}
+
+/* Log in form end */
+
+
+
+/* Tabs start here */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.wrapper{
+  background: #fff;
+  margin: 120px auto;
+  border-radius: 3px;
+}
+
+.wrapper .tabs ul{
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+
+.wrapper .tabs ul li{
+  width: 25%;
+  height: 65px;
+  padding: 0 20px;
+  text-align: center;
+  background: #dbe3eb;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #8b9393;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .tabs ul li:first-child{
+  border-top-left-radius: 3px;
+}
+
+.wrapper .tabs ul li:last-child{
+  border-top-right-radius: 3px;
+}
+
+.wrapper .tabs ul li img{
+  width: 35px;
+  height: 35px;
+  display: block;
+  margin: 0 auto 3px;
+}
+
+.wrapper .content .tab_content{
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.wrapper .tabs ul li.active{
+  border-top: 6px solid #44c8fe;
+  margin-top: -15px;
+  background: rgb(191, 65, 65);
+  color: #44c8fe;
+  padding-top: 9px;
+}
+
+/* Tabs end here */
+
+/* accordions start here */
+
+.custom-accordion{
+  width: 100%;
+}
+
+.accordion-item{
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-shadow: 0px, 0px, 3px rgba(0,0,0,0.05);
+  margin-bottom: 15px;
+}
+
+.accordion-item:last-child{
+  margin-bottom: 0;
+}
+
+.accordion-item .title,
+.accordion-item .info{
+  padding: 15px;
+}
+
+.accordion-item .title{
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  background: rgb(160, 231, 146);
+}
+
+.accordion-item .title span{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.accordion-item .info{
+  background-color: #eee ;
+}
+
+/* accordions end here */
+
+
+/* checkbox start */
+.form-check .row input{
+  height: 30px;
+  width: 30px;
+  border: 3px solid #44c8fe;
+  margin-right: 10px;
+}
+
+.form-check .row label{
+  margin-top: 8px;
+  color: #fff;
+}
+
+/* checkbox end */

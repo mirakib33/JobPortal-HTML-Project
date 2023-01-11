@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../../../resources/vendors/bootstrsp/bootstrap.min.css" rel="stylesheet">
+  <link href="../../../resources/vendors/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="../../../resources/vendors/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+  <link href="../../../resources/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Tab start -->
+  <div class="container">
+    <div>
+      <div class="wrapper">
+        <!-- Tab headings start -->
+        <div class="tabs">
+          <ul>
+            <li class="active" data-list="tab_1">
+              <i class="fa fa-user"></i>
+              <p>PERSONAL</p>
+            </li>
+            <li data-list="tab_2">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <p>EDUCATION</p>
+            </li>
+            <li data-list="tab_3">
+              <i class="fa-solid fa-briefcase"></i>
+              <p>EMPLOYMENT</p>
+            </li>
+            <li data-list="tab_4">
+              <i class="fa-solid fa-grip"></i>
+              <p>OTHERS</p>
+            </li>
+            <li data-list="tab_5">
+              <i class="fa-solid fa-sack-dollar"></i>
+              <p>Billing & Payment</p>
+            </li>
+          </ul>
+        </div>
+        <!-- Tab headings end -->
+
+        <!-- Tab contents start -->
+        <div class="content">
+          <div class="tab_content tab_1">
+            <div class="custom-accordion">
+              <!-- Accordion items start -->
+              <div class="accordion-item active">
+                <div class="title">
+                  Profile Info
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- Accordion form start -->
+                  <div class="container">
+                    <div class="">
+                      <form class="form-employment" action="" method="post">
+                        <div class="row my-3">
+                          <div class="">
+                            <label for="photo" class="form-label">Upload Photo</label>
+                            <input type="file" class="form-control">
+                          </div>
+                        </div>
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="first-name" class="form-label">First Name</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="last-name" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last name">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="text" class="form-control" placeholder="Email">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="text" class="form-control" placeholder="Phone">
+                          </div>
+                        </div>
+
+                        <div class="mt-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                      <div class="my-3">
+                        <form class="form-password" action="" method="post">
+                          <div class="row my-3">
+                            <div class="mb-3">
+                              <label for="old-password" class="form-label">Old Password</label>
+                              <input type="password" class="form-control" placeholder="Old Password">
+                            </div>
+                            <div class="mb-3">
+                              <label for="new-password" class="form-label">New Password</label>
+                              <input type="password" class="form-control" placeholder="New Password">
+                            </div>
+                            <div class="mb-3">
+                              <label for="confirm-password" class="form-label">Confirm Password</label>
+                              <input type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                          </div>
+
+                          <div class="mt-2">
+                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="submit" class="btn btn-primary">Close</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+              <!-- Accordion items end -->
+              <!-- Accordion items start -->
+              <div class="accordion-item">
+                <div class="title">
+                  Personal Details
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-personal" action="" method="post">
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="date" class="form-label">Date of Birth</label>
+                            <input type="text" class="form-control" placeholder="Date of Birth">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Male</option>
+                              <option value="2">Female</option>
+                              <option value="3">Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="maritalStatus" class="form-label">Marital Status</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Married</option>
+                              <option value="2">Unmarried</option>
+                              <option value="3">Divorced</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="religion" class="form-label">Religion</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Islam</option>
+                              <option value="2">Hinduism</option>
+                              <option value="3">Christinity</option>
+                              <option value="4">Buddhism</option>
+                              <option value="5">Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="nationality" class="form-label">Nationality</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Bangladeshi</option>
+                              <option value="2">Others</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="nationalId" class="form-label">National ID</label>
+                            <input type="text" class="form-control" placeholder="National ID">
+                          </div>
+                        </div>
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+              <!-- Accordion items end -->
+              <!-- Accordion items start -->
+              <div class="accordion-item">
+                <div class="title">
+                  Address Details
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <h6>Present Address</h6>
+                      <form class="form-address" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="district" class="form-label">District</label>
+                            <input type="text" class="form-control" placeholder="District">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="upazila" class="form-label">Upazila</label>
+                            <input type="text" class="form-control" placeholder="Upazila">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="postOffice" class="form-label">Post Office</label>
+                            <input type="text" class="form-control" placeholder="Post Office">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="village" class="form-label">Village/Area</label>
+                            <input type="text" class="form-control" placeholder="Village/Area">
+                          </div>
+                        </div>
+                        <h6>Permanent Address</h6>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="district" class="form-label">District</label>
+                            <input type="text" class="form-control" placeholder="District">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="upazila" class="form-label">Upazila</label>
+                            <input type="text" class="form-control" placeholder="Upazila">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="postOffice" class="form-label">Post Office</label>
+                            <input type="text" class="form-control" placeholder="Post Office">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="village" class="form-label">Village/Area</label>
+                            <input type="text" class="form-control" placeholder="Village/Area">
+                          </div>
+                        </div>
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_content tab_2">
+            <div class="custom-accordion">
+              <div class="accordion-item active">
+                <div class="title">
+                  Academic Summary
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+
+                  <!-- Academic summary view start -->
+
+                  <div class="container">
+                    <div>
+                      <button class="btn btn-primary float-end edit-btn">Edit</button>
+                    </div><br><br>
+                    <div class="academic-summary">
+                      <div class="row">
+                        <div class="col">
+                          <h6 class="fw-bold">Degree</h6>
+                        </div>
+                        <div class="col">
+                          <h6 class="fw-bold">Subject/Group</h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <h6 class="fw-bold">Institute/Board</h6>
+                        </div>
+                        <div class="col">
+                          <h6 class="fw-bold">Year of Passing</h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <h6 class="fw-bold">Result</h6>
+                        </div>
+                        <div class="col">
+                          <h6 class="fw-bold">Scale</h6>
+                        </div>
+                      </div>
+                    </div><br>
+                    <div>
+                      <button class="btn btn-primary add-btn">Add New</button>
+                    </div>
+                  </div>
+
+                  <!-- Academic summary view end -->
+
+
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-academic" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="degree" class="form-label">Degree</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">PSC/5 pass</option>
+                              <option value="2">JSC/JDC/8 pass</option>
+                              <option value="3">SSC/Dakhil/O Level</option>
+                              <option value="4">HSC/Alim/A Level/</option>
+                              <option value="5">Diploma</option>
+                              <option value="6">Bachelor/Honours</option>
+                              <option value="7">Masters</option>
+                              <option value="5">PhD(Doctor of Philosophy)</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="subject" class="form-label">Subject/Group</label>
+                            <input type="text" class="form-control" placeholder="Subject/Group">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="institute" class="form-label">Institute/Board</label>
+                            <input type="text" class="form-control" placeholder="Institute/Board">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="passingYear" class="form-label">Year of Passing</label>
+                            <input type="text" class="form-control" placeholder="Year">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="result" class="form-label">Result</label>
+                            <input type="number" class="form-control" placeholder="GPA/CGPA">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="scale" class="form-label">Scale</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Out of 4</option>
+                              <option value="2">Out of 5</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary save-btn">Save</button>
+                          <button class="btn btn-primary close-btn">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="title">
+                  Professional Certification Summary
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-personal" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="degree" class="form-label">Certification</label>
+                            <input type="text" class="form-control" placeholder="Certificate Name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="institute" class="form-label">Institute</label>
+                            <input type="text" class="form-control" placeholder="Institute Name">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="location" class="form-label">Location</label>
+                            <input type="text" class="form-control" placeholder="Location Name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="duration" class="form-label">Duration</label>
+                            <input type="text" class="form-control" placeholder="Duration">
+                          </div>
+                        </div>
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_content tab_3">
+            <div class="custom-accordion">
+              <div class="accordion-item active">
+                <div class="title">
+                  Employment History
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div class="">
+                      <form class="form-employment" action="" method="post">
+                        <div class="">
+                          <h6 class="">Experience 1</h6>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="companyName" class="form-label">Company Name</label>
+                            <input type="text" class="form-control" placeholder="Company Name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="designation" class="form-label">Designation</label>
+                            <input type="text" class="form-control" placeholder="Designation">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="department" class="form-label">Department</label>
+                            <input type="text" class="form-control" placeholder="Department">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="location" class="form-label">Company Location</label>
+                            <input type="text" class="form-control" placeholder="Company Location">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="employmentPeriod" class="form-label">Employment Period (Start Date)</label>
+                            <input type="date" class="form-control" placeholder="Start Date">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="end-date" class="form-label">(End Date)</label>
+                            <span class="float-end">
+                              <input type="checkbox" class="form-check-input">
+                              <label for="currently-working" class="form-label">Currently Working</label>
+                            </span>
+                            <input type="date" class="form-control" placeholder="End Date">
+                            <!-- <input type="text" class="form-control text-center" placeholder="Continuing" disabled readonly> -->
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="duties" class="form-label">Duties/Responsibilities</label>
+                            <textarea type="text" class="form-control" placeholder="Duties/Responsibilities"></textarea>
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="expertise-area" class="form-label">Area of Expertise</label>
+                            <textarea type="text" class="form-control" placeholder="Area of Expertise"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="mt-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_content tab_4">
+            <div class="custom-accordion">
+              <div class="accordion-item active">
+                <div class="title">
+                  Skills
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- Accordion form start -->
+                  <div class="container">
+                    <div class="">
+                      <form class="form-employment" action="" method="post">
+                        <div class="row my-3">
+                          <div class="">
+                            <label for="skills" class="form-label">Special Skills</label>
+                            <input type="text" class="form-control" placeholder="Add your special skills here">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="">
+                            <label for="skills" class="form-label">Other Skills</label>
+                            <textarea type="text" class="form-control" placeholder="Add all skills here"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="mt-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="title">
+                  Portfolio
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-personal" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="designation" class="form-label">Designation</label>
+                            <input type="text" class="form-control" placeholder="Designation">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="organization" class="form-label">Organization</label>
+                            <input type="text" class="form-control" placeholder="Organization">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="relation" class="form-label">Relation</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Academic</option>
+                              <option value="2">Professional</option>
+                              <option value="3">Relative</option>
+                              <option value="4">Family</option>
+                              <option value="4">Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="number" class="form-control" placeholder="Phone">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="">
+                            <label for="email" class="form-label">Address</label>
+                            <textarea type="text" class="form-control" placeholder="Full Address"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="title">
+                  Language Proficiency
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-personal" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="language" class="form-label">Language</label>
+                            <input type="text" class="form-control" placeholder="Language">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="institute" class="form-label">Reading</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">High</option>
+                              <option value="2">Medium</option>
+                              <option value="3">Low</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="writing" class="form-label">Writing</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">High</option>
+                              <option value="2">Medium</option>
+                              <option value="3">Low</option>
+                            </select>
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="speaking" class="form-label">Speaking</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">High</option>
+                              <option value="2">Medium</option>
+                              <option value="3">Low</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="title">
+                  References
+                  <span class="open"><i class="fas fa-plus"></i></span>
+                  <span class="close"><i class="fas fa-minus"></i></span>
+                </div>
+                <div class="info">
+
+                  <!-- accordion form start -->
+                  <div class="container">
+                    <div>
+                      <form class="form-personal" action="" method="post">
+                        <div class="row my-1">
+                          <div class="col-lg-6 mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="designation" class="form-label">Designation</label>
+                            <input type="text" class="form-control" placeholder="Designation">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="organization" class="form-label">Organization</label>
+                            <input type="text" class="form-control" placeholder="Organization">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="relation" class="form-label">Relation</label>
+                            <select class="form-select">
+                              <option selected>Select</option>
+                              <option value="1">Academic</option>
+                              <option value="2">Professional</option>
+                              <option value="3">Relative</option>
+                              <option value="4">Family</option>
+                              <option value="4">Others</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="col-lg-6 mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                          <div class="col-lg-6">
+                            <label for="phone" class="form-label">Phone</label>
+                            <input type="number" class="form-control" placeholder="Phone">
+                          </div>
+                        </div>
+                        <div class="row my-3">
+                          <div class="">
+                            <label for="email" class="form-label">Address</label>
+                            <textarea type="text" class="form-control" placeholder="Full Address"></textarea>
+                          </div>
+                        </div>
+
+                        <div class="my-2">
+                          <button type="submit" class="btn btn-primary">Save</button>
+                          <button type="submit" class="btn btn-primary">Close</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+
+                  <!-- accordion form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab_content tab_5">
+            Freelance Profile
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- script start -->
+  <script src="../../../resources/vendors/bootstrsp/bootstrap.bundle.min.js"></script>
+  <script src="../../../resources/vendors/jquery/jquery-3.6.1.min.js"></script>
+  <script src="../../../resources/assets/javascript/custom.js"></script>
+</body>
+
+</html>
